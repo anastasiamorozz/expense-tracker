@@ -1,0 +1,19 @@
+<nav>
+  <button
+    class="nav-btn"
+    [ngClass]="{'active': selectedOption === 0}"
+    (click)="navigateToPage('/')">
+    <i class="fa-solid fa-wallet"></i> Transactions
+  </button>
+  <button
+    class="nav-btn"
+    [ngClass]="{'active': selectedOption === 1}"
+    (click)="navigateToPage('/categories')">
+    <i class="fa-solid fa-list"></i> Categories
+  </button>
+  <button
+    class="nav-btn"
+    [ngClass]="{'active': selectedOption === 2}">
+    <i class="fa-solid fa-gear"></i> Settings
+  </button>
+</nav>

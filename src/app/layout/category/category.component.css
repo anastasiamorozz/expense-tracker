@@ -1,0 +1,28 @@
+.category{
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.category-data{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #2E2E2E;
+  border-radius: 50%;
+}
+
+.icon p,
+h2,
+p{
+  margin: 0;
+}
+

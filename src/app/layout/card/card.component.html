@@ -1,0 +1,18 @@
+<div class="cart">
+  <div class="cart-data">
+    <div class="icon">
+      <p>🚀</p>
+    </div>
+    <div class="cart-title">
+      <h2>48 USD</h2>
+      <p>A cheapest flight between Monaco - Norway - Turkey - New York for a week</p>
+    </div>
+  </div>
+  <div class="cart-menu" (click)="toggleMenu()">
+    <i class="fa-solid fa-ellipsis-vertical"></i>
+    <ul class="dropdown-menu" [ngClass]="{ 'show': isMenuOpen }">
+      <li (click)="onMenuOptionClick('Edit')">Edit</li>
+      <li (click)="onMenuOptionClick('Delete')">Delete</li> 
+    </ul>
+  </div>
+</div>
